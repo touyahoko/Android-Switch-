@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.mhxx.memorystudio'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.mhxx.memorystudio"
+        minSdk 26
+        targetSdk 34
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+}
